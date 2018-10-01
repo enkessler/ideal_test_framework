@@ -1,0 +1,4 @@
+AllCops:
+  TargetRubyVersion: 2.5     # Your expected Ruby version here
+  DisplayCopNames: true      # For tracking down how a cop works
+  DisplayStyleGuide: true    # For finding out why a cop works
