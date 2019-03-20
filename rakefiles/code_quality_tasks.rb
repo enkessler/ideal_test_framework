@@ -28,8 +28,8 @@ namespace 'project_namespace' do
     task :gherkin_check do |t|
       root_directory = "#{__dir__}/.."
       features_directory = "#{root_directory}/testing/cucumber/features"
-      step_definitions_directory = "#{root_directory}//testing/cucumber/step_definitions"
-      hooks_directory = "#{root_directory}//testing/cucumber/hooks"
+      step_definitions_directory = "#{root_directory}/testing/cucumber/step_definitions"
+      hooks_directory = "#{root_directory}/testing/cucumber/hooks"
       report_output_path = "#{root_directory}/reports/cuke_sniffer_report"
 
       sniffer = CukeSniffer::CLI.new(features_location: features_directory,
